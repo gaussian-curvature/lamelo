@@ -1,6 +1,7 @@
 
 
 
+
 source "https://rubygems.org"
 
 # Hello! This is where you manage which Jekyll version is used to run.
@@ -25,6 +26,13 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap', '~> 1.4'
   gem 'jekyll-compose', '~> 0.12.0'
   gem 'jekyll-postfiles', '~> 3.1'
+  
+gem 'uglifier'
+gem 'jekyll-seo-tag'
+  gem 'jekyll-paginate'
+# gem 'github-pages', versions['github-pages']
+ gem 'jekyll-assets'
+ gem 'font-awesome-sass'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
